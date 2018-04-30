@@ -1,0 +1,192 @@
+a {
+	transition: all 0.3s;
+	co
+}
+a:hover,a:focus,a:active {
+	text-decoration: none;
+}
+header {
+	padding: 10px 0;
+}
+header .row {
+	display: flex;
+	align-items: center;
+}
+.logo {
+	font-size: 36px;
+}
+.logo sup {
+	font-style: italic;
+}
+.logo span {
+	font-size: 24px;
+	letter-spacing: 1.5px;
+}
+.navigation {
+	margin-bottom: 0;
+}
+.navigation li {
+	margin-left: 20px;
+}
+.navigation li a {
+	font-size: 14px;
+	font-weight: 700;
+}
+#banner .carousel-inner>.item {
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+}
+#banner .carousel-inner>.item:after {
+	content: "";
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#banner .caption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 9;
+	color: #fff;
+}
+#banner .caption .banner-title {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+#banner .caption .banner-title sup {
+	text-transform: none;
+	font-style: italic;
+	font-weight: 500;
+}
+#banner .caption .banner-content {
+	max-width: 500px;
+	font-size: 16px;
+	margin-bottom: 35px;
+	font-weight: 300;
+}
+
+#introduction {
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	padding: 50px 0;
+}
+#introduction .container {
+	max-width: 800px;
+	margin: auto;
+}
+
+#introduction p {
+	margin-bottom: 0;	
+}
+#poster {
+	margin-top: 50px;
+}
+#poster .row {
+	display: flex;
+	align-items: center;
+}
+
+.poster-item {
+	margin-bottom: 30px;
+}
+.poster-item:last-child {
+	margin-bottom: 0;
+}
+.title {
+	font-size: 24px;
+	font-weight: 700;
+}
+.content {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.strip {
+	background-color: #dedede;
+	padding: 30px 0;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 300;
+}
+.strip .container {
+	max-width: 900px;
+}
+
+#membership i {
+	font-size: 45px;
+	margin-bottom: 10px;
+}
+.membership-col {
+	padding: 50px;
+}
+.membership-col > div {
+	max-width: 400px;
+	margin: auto;
+}
+.membership-col .title {
+	margin-bottom: 30px;
+}
+.membership-col .content {
+	margin-bottom: 30px;
+}
+.presenter {
+	background-color: #ddd;
+}
+.participant {
+	background-color: #eee;
+}
+
+footer {
+	padding: 50px 0;
+	background-color: #5d5c5c;
+	color: #fff;
+}
+
+.footer-item {
+	font-size: 12px;
+}
+
+.footer-item ul li {
+	margin-bottom: 5px;
+}
+.page-banner {
+	background-color: #dedede;
+	padding: 40px 0;
+}
+.page-title {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+#text {
+	margin: 50px 0;	
+	font-size: 18px;
+	font-weight: 300;
+}
+
+
+#text .container {
+	max-width: 900px;
+	width: 100%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
